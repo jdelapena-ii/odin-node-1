@@ -12,11 +12,6 @@ const server = http.createServer((req, res) => {
       res.statusCode = 200;
       break;
 
-    case "/contact":
-      path += "contact.html";
-      res.statusCode = 200;
-      break;
-
     case "/about":
       path += "about-me.html";
       res.statusCode = 200;
